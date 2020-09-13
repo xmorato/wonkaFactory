@@ -29,8 +29,9 @@ Teniendo presente que estoy en la última versión de Chrome (como dice el enunc
 
 ## ¿ Cómo arrancar el proyecto ? 🚀
 
+IMPORTANTE: usar versión mínima de Node 10.15.2
 ```
-git clone del respositorio
+git clone https://github.com/xmorato/wonkaFactory.git
 npm install
 npm start
 ```
