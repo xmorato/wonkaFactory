@@ -1,0 +1,205 @@
+.App {
+  display: flex;
+  justify-content: center;
+}
+
+.App img {
+  object-fit: cover;
+}
+
+.App a:link {
+    color: rgb(22, 22, 22);
+}
+
+.App a:visited {
+  color: rgb(58, 166, 249)
+}
+
+.App-content {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 85%;
+}
+
+.ImageLogo {
+  height: 20px;
+}
+
+.Header {
+  background-color: #d8d8d8;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: rgb(0, 0, 0);
+}
+
+.HeaderWrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
+
+.HeaderContent {
+  align-items: center;
+  display: flex;
+  flex: 0 0 85%; 
+}
+
+.HeaderText {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.PageWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.PageContainer {
+  display: flex;
+  flex: 0 0 85%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.TitleRow1 {
+  font-size: 40px;
+  font-weight: normal;
+  color: rgb(0, 0, 0);
+  margin-top: 25px;
+  text-align:  center
+}
+
+.TitleRow2 {
+  font-size: 30px;
+  font-weight: normal;
+  color: rgb(116, 111, 111);
+  text-align:  center
+}
+
+.Search {
+  align-self: flex-end;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 26px;
+  border: 1px solid rgba(146, 143, 143, 0.587)
+}
+
+.SearchInput{
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  flex:0 0 90%;
+  outline:0; 
+}
+
+.SearchSlash {
+  color: rgba(146, 143, 143, 0.587);
+  flex: 0 0 15%;
+}
+
+.SearchIcon {
+  display: flex;
+  flex: 0 0 15%;
+} 
+
+.SearchIcon img {
+  width: 12px;
+  height: 12px;
+}
+
+.ListOfOompas {
+  margin-top: 20px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.OompaLink {
+  text-decoration: none;
+  display:  flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.Oompa {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.OompaName {
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+.Oompa img {
+  width: 300px;
+  height: 150px;
+}
+
+/* Detalle del Oompa */
+.OompaDetailContainer {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.OompaDetailImage{
+  flex: 0 0 60%;
+}
+
+.OompaDetailImage img{
+width: 95%;
+height: 80%;
+}
+
+.OompaDetailRest{
+  flex: 0 0 40%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.OompaDetailName {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.OompaDetailGender, .OompaDetailProfession, .OompaGender, .OompaProfession{
+  color: rgb(116, 111, 111);
+  font-size: 15px;
+}
+
+.OompaDetailDescription {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-align: left;
+}
+
+/* Tamaño del h1 que venga en la descripción */
+.OompaDetailDescription h1{
+  font-size: 15px;
+}
+
+.Loading, .Error {
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: rgb(249, 118, 58)
+}
